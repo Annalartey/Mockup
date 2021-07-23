@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  background-color: #0c0c0c;
+}
+.header-link {
+  display: flex;
+  color: white;
+}
+
+.picture {
+  background-color: black;
+  color: #61dafb;
+  min-width: 100%;
+  min-height: 800px;
+}
+
+.footer {
+  background-color: rgb(19, 18, 18);
+}
+
+.pic {
+  background-image: url("./images/pic.jpg");
+  min-height: 550px;
+  min-width: 50%;
+}
+
+.about-pic1 {
+  background-image: url("./component/assets/slide_1.jpeg");
+  min-height: 550px;
+  min-width: 100%;
+
+}
+
+.about-pic2 {
+  background-image: url("./component/assets/slide_2.jpeg");
+  min-height: 550px;
+  min-width: 100%;
+
+}
+.about-founder {
+  min-height: 900px;
+  min-width: 550px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
